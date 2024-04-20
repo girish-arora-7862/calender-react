@@ -1,0 +1,71 @@
+.DatePickerCalender {
+  padding: 12px;
+}
+
+.DatePickerCalender_header {
+  display: flex;
+}
+
+.DatePickerCalender_header svg {
+  height: 24px;
+  width: 24px;
+  padding: 6px;
+  cursor: pointer;
+}
+.DatePickerCalender_header svg:hover {
+  background-color: #e5e5ea;
+  border-radius: 6px;
+}
+
+.DatePickerCalender_title {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.DatePickerCalender_days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.DatePickerCalender_date {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.DatePickerCalender_date:hover {
+  border-radius: 6px;
+  background-color: #e5f4ff;
+  color: #1675e0;
+}
+
+.DatePickerCalender_date.selected {
+  background-color: #3498ff;
+  color: white;
+  border-radius: 6px;
+}
+
+.DatePickerCalender_date.middle {
+  background-color: #e5f4ff;
+  border-radius: 6px;
+  color: var(--text-color);
+}
+
+.DatePickerCalender_day_name {
+  color: var(--text-color-secondary);
+}
+
+.DatePickerCalender_days .disabled {
+  color: var(--text-color-disabled);
+}
+
+.DatePickerCalender_date.disabled:hover {
+  border-radius: 6px;
+  background-color: white;
+  color: var(--text-color-disabled);
+}

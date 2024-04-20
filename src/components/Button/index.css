@@ -1,0 +1,19 @@
+.Button {
+  background-color: #3498ff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  width: fit-content;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.Button_text {
+  background-color: white;
+  color: #3498ff;
+}
+
+.Button.disabled {
+  opacity: 0.3;
+}

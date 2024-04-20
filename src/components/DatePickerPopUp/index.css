@@ -1,0 +1,31 @@
+.DatePickerPopUp {
+  position: absolute;
+  width: fit-content;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06);
+  z-index: 10;
+}
+
+.DatePickerPopUp_title {
+  padding: 8px 12px;
+}
+
+.DatePickerPopUp_content {
+  border: 1px solid var(--border-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.DatePickerPopUp_content .DatePickerPopUp_end_calender {
+  border-left: 1px solid var(--border-color);
+}
+
+.DatePickerPopUp_footer {
+  padding: 12px;
+  display: flex;
+}
+
+.DatePickerPopUp_options {
+  flex: 1;
+  display: flex;
+}

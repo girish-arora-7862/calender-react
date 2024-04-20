@@ -1,0 +1,16 @@
+.DatePickerInput_wrapper {
+  border: 1px solid var(--border-color);
+  padding: 7px 11px;
+  display: flex;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.DatePickerInput_value {
+  flex: 1;
+}
+
+.DatePickerInput_icon svg {
+  width: 14px;
+  height: 14px;
+}
